@@ -1,0 +1,26 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "es-MX": {
+          "summary": "Integración de casa inteligente para NegoconVoice",
+          "name": "NegoconVoice",
+          "description": "Controla dispositivos inteligentes compatibles con NegoconVoice."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Prueba el descubrimiento de dispositivos y su control.",
+      "category": "SMART_HOME",
+      "distributionCountries": []
+    },
+    "apis": {
+      "smartHome": {
+        "protocolVersion": "3",
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:344931336107:function:ask-negoconvoice-default-default-1787253044518"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
